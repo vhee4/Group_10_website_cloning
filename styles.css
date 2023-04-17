@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+.section_two{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 250, 246);
+    padding: 0 0 0 20px;
+}
+
+.section_two_writeup{
+    max-width: 70%;
+    z-index: 1;
+}
+.section_two_writeup>p{
+
+    font-weight: 200;
+}
+hr{
+    border: 1px solid rgb(237, 70, 52);
+    width: 10rem;
+    
+}
+
+.section_two_image{
+   max-width: 30%; 
+   max-height: 100vh;
+   overflow: hidden;
+}
+.section_two_image>img{
+    max-height: 100vh;
+}
