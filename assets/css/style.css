@@ -1,31 +1,37 @@
-
-  .herosection{
-    overflow: hidden;
-  }
-
 h1 {
     color:#ff490d;
     text-align: center;
     padding-top: 10rem;
  
 }
-.cusbtn {
+.default-color{
+    color:#ff490d;
+}
+.cusbtn1 {
     background-color: #ff490d;
-    text-decoration: solid ;
-   
-    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+     
 }
 .navalign{
     text-align: center;
 }
 .herotext-sm{
-   padding-top: 25rem;
-    font-size: 65px;
+    padding-top: 20rem;
+    font-size: 40px;
 }
 
 .herotext-md{
-    padding-top: 15rem;
-     font-size: 80px;
+    padding-top: 18rem;
+    margin-right: -10.5rem;
+    text-align: center;
+ }
+ .imgline{
+  margin-top: 18rem;
+  margin-left: -20rem;
+ 
  }
 .navbar-toggler-icon{
     background-image: none;
@@ -43,3 +49,22 @@ h1 {
     background-size:cover;
    
   }
+  .hover-effect:hover {
+    opacity: 0.5;
+    text-decoration: underline  #ff490d;
+  }
+  .active{
+    text-decoration: underline solid  #ff490d;
+  }
+  .focus-effect:focus {
+    padding: 5px;
+    background-color:#ae401c;
+    box-shadow: #ae401c;
+  }
+.weserve{
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 380px;
+    text-align: center;
+    
+}

@@ -13,11 +13,11 @@
 
     <!--Navbar section -->
     <!--navbar for small screens only-->
-    <nav class="d-md-none d-sm-block navbar navbar-expand-lg  fixed-top">
+    <nav class="d-md-none d-lg-none d-block d-sm-block navbar navbar-expand-lg  fixed-top">
         <div class="container-fluid">
          
             <a class="navbar-brand" href="#">
-              <img class ="img-fluid" src="assets/img/cc-horizontal.svg" alt="logo" width="350" height="50">
+              <img class ="img-fluid w-75" src="assets/img/cc-horizontal.svg" alt="logo" >
             </a>
        
          
@@ -28,23 +28,23 @@
           <div class=" collapse navbar-collapse bg-white" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0  navalign ">
               <li class="nav-item ">
-                <a class="nav-link active fs-4" aria-current="page" href="#">Who we are</a>
+                <a class="nav-link  fs-4 active hover-effect" aria-current="page" href="#who">Who we are</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link fs-4 " aria-current="page" href="#">What we offer</a>
+                <a class="nav-link fs-4  hover-effect" aria-current="page" href="#whatweoffer">What we offer</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link fs-4 " aria-current="page" href="#">Partners</a>
+                <a class="nav-link fs-4  hover-effect" aria-current="page" href="#">Partners</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link fs-4" aria-current="page" href="#">How to apply</a>
+                <a class="nav-link fs-4 hover-effect" aria-current="page" href="#">How to apply</a>
               </li>
               
               
             </ul>
             <form class="d-flex justify-content-center " role="">
               
-              <button class="btn btn-lg text-white cusbtn" type="submit">Book a tour </button>
+              <button class="btn btn-lg text-white rounded-lg border rounded-pill cusbtn1" type="submit">Book a tour </button>
             </form>
           </div>
         </div>
@@ -52,33 +52,33 @@
 
 
        <!--navbar for medium and large screens only-->
-    <nav class="d-sm-none d-md-block d-lg-block navbar navbar-expand-lg fixed-top">
+    <nav class="d-none d-sm-none d-md-block d-lg-block  mx-5 navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
        
           <a class="navbar-brand" href="#">
-            <img class ="img-fluid" src="assets/img/cc-horizontal.svg" alt="logo" width="350" height="50">
+            <img class ="img-fluid w-75" src="assets/img/cc-horizontal.svg" alt="logo">
           </a>
          
         <div class=" collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2  mb-lg-0  navalign ">
+          <ul class="navbar-nav ms-auto mb-2 me-5 mb-lg-0  navalign ">
             <li class="nav-item ">
-              <a class="nav-link active fs-4" aria-current="page" href="#">Who we are</a>
+              <a class="nav-link active fs-4 hover-effect" aria-current="page" href="#who">Who we are</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link fs-4 " aria-current="page" href="#">What we offer</a>
+              <a class="nav-link fs-4  hover-effect" aria-current="page" href="#whatweoffer">What we offer</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link fs-4 " aria-current="page" href="#">Partners</a>
+              <a class="nav-link fs-4  hover-effect" aria-current="page" href="#">Partners</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link fs-4" aria-current="page" href="#">How to apply</a>
+              <a class="nav-link fs-4 hover-effect" aria-current="page" href="#">How to apply</a>
             </li>
             
             
           </ul>
           <form class="d-flex " role="">
             
-            <button class="btn btn-lg text-white cusbtn" type="submit">Book a tour </button>
+            <button class="btn btn-lg text-white rounded-lg border rounded-pill  cusbtn1" type="submit">Book a tour </button>
           </form>
         </div>
       </div>
@@ -86,38 +86,41 @@
 
   <!--Hero section-->
   <!-- Specific Hero section display for  medium and Large Screens-->
-    <div class=" herosection  mb-md-10">
-      <div class="row">
-        <div class="d-sm-none d-md-block col-sm-12 col-md-6 hero "> 
+    <div class="d-none d-sm-none d-md-block d-lg-block col-sm-12 overflow-hidden text-center  mb-md-10">
+      <div class="row " style="background-color:#fffaf5;">
+        <div class=" col-md-6 hero "> 
           <div  class="bgimage vh-100"
       style="
-            background-image: url('assets/img/hero-1-800x1200.jpg');">
+            background-image: url('assets/img/hero-1-800x1200.jpg'); ">
       </div>
         </div>
-        <div class="d-sm-none d-md-block col-sm-12 col-md-6 hero">  
-         <h1 class=" fw-bolder herotext-md"> SHARED KITCHEN <br/>
-          BY FOOD INDUSTRY PEOPLE,<br/>
-          FOR FOOD INDUSTRY PEOPLE </h1> 
+        <div class="col-md-1 imgline">
+        <img src="assets/img/Line 1.png" alt=""/>
         </div>
+        <div  class="col-md-5 mx-auto fw-bold">  
+         <h1 class="fw-bold display-2 herotext-md"> 
+          SHARED KITCHEN <br/>BY FOOD INDUSTRY PEOPLE,<br/> FOR FOOD INDUSTRY <br/> PEOPLE </h1> 
+       
+          <img src="assets/img/Line 1 (1).png" class="pt-4" alt=""/>
+        </div>
+      
       </div>
     </div>
 
   <!-- Specific Hero section display for small Screens only-->
-  <div class=" herosection  ">
+  <div class="d-md-none d-lg-none d-sm-block d-block overflow-hidden ">
     <div class="row">
-      <div class="d-md-none d-lg-none d-sm-block col-sm-12 "> 
-        <div  class="bgimage vh-100"
-    style="margin-top: -100.59px;
-          background-image: url('assets/img/hero-1-800x1200.jpg');">
-           <h1  class="fw-bolder herotext-sm "> SHARED KITCHEN <br/>
-            BY FOOD INDUSTRY PEOPLE,<br/>
-            FOR FOOD INDUSTRY PEOPLE </h1> 
-        </div>
+      <div class=" col-sm-12 "> 
+        <div  class="bgimage vh-100 text-center"
+    style="background-image: url('assets/img/hero-1-800x1200.jpg'); ">
+           <h1  class="fw-bolder herotext-sm "> SHARED KITCHEN BY FOOD <br/>INDUSTRY PEOPLE, FOR FOOD <br/> INDUSTRY PEOPLE </h1> 
+           <img src="assets/img/Line 1 (1).png" class="pt-4 " alt=""/>
+          </div>
       </div>
     </div>
   </div>
       
-  <section class="section_two">
+  <section id="who" class="section_two">
     <div class="section_two_writeup">
     <h2>Who we are</h2>
     <hr>
@@ -132,6 +135,91 @@
       <img  src="./assets/img/2-2-923x1200.jpg" alt="">
     </div>
   </section>
+  
+  <!--what we offer section small screen only-->
+  <section id="whatweoffer" class="mt-5" >
+    <div class="  ms-auto text-center">
+    <h2 class="text-lg  fs-1 hover-effect"> What we offer </h2> <br/>
+    <div class="fs-3"> Cook Collective has <span class="default-color">8</span> customizable preparation <br/> stations, fully licensed and equipped.</div>
+    <br/><br/>
+    <p class="fs-5">We offer Station Rentals by the Shift and monthly storage options for dry, cold and frozen items.</p>
+    <br/>
+    <p class="fs-5"> 7.5 hour Shifts: <span class="default-color">AM Shift</span> [8:00AM-3:30PM] <span class="default-color">PM Shift </span>  [4:00PM-11:30PM] <span class="default-color">Overnight Shift </span> [12AM-7:30AM]</p>
+    <br/>
+    <p class="fs-5"> Our stations are ample, refrigerated and have plenty of storage. </p>
+    <br/>
+    <p class="fs-5">Memberships start as low as 2 shifts per month.</p>
+    <br/>
+    <p class="fs-5">Choose a plan from 1 to 7 shifts a week. Prices start from <span class="default-color"> $195 </span> per shift.
+    </p>
+    <br/>
+    <div><form> <button type="submit" class="btn btn-lg rounded-lg border border-danger rounded-pill default-color "> Inquire about special arrangements</button></form> </div>
+    <br/>
+  </div><br/><br/><br/><br/>
+   <div class="ms-auto text-center">
+    <!--first item-->
+    <div class="row">
+      <div class="col-sm-12 col-md-4">
+        <img src="assets/img/icon-pins.svg"/><br/><br/>
+        <span class="default-color fs-4"> Infrastructure </span> <br/><br/>
+           <div>  8 prep stations </div>
+        <div>  Ample dry/cold/freeze storage </div>
+            <div> Delivery zone </div> 
+        <div>  Extraction & Ventilation </div>
+      <div> Ansul fire suppression system</div> 
+        <div>1 hand wash sink x station </div>
+    <div>In-progress dedicated refrigeration units in every station. </div>
+        <div>Stainless steel work tables x station </div> 
+              <div> Wi-Fi zone </div>  <br/><br/>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <!--Second item-->
+    <img src="assets/img/icon-oven.svg"/><br/><br/>
+    <span class="default-color fs-4"> Equipment </span> <br/><br/>
+       <div> Doyon revolving rack oven  </div>
+    <div> Dough sheeter </div>
+        <div> Double door proofer </div> 
+    <div> Electric smoker </div>
+  <div> Fryers, including a large donut fryer </div> 
+    <div>7 convection ovens </div>
+  <div>Three 6 burner ranges</div>
+    <div>2 stock pot burners</div> 
+          <div> 8-60qt mixers </div>
+          <div> Commercial Robot Coupes </div>
+          <div> Ice cream machine </div>
+          <div> Ice makers </div>
+      </div>
+      <div class="col-sm-12 col-md-4 ">
+         <!--Third item-->
+    <img src="assets/img/icon-layers.svg" alt="" class="mt-5"/><br/><br/>
+    <span class="default-color fs-4 fs-1 mt-4"> Services </span> <br/><br/>
+       <div>Cleaning services </div>
+    <div> Linen services </div>
+        <div>Janitorial supplies </div> 
+    <div> Chemical supplies </div>
+    <div> Free Wi-Fi </div> 
+    <div>Helpful staff </div>
+    <div>Waste & Recycling services</div>
+    
+      </div>
+    </div>
+   
+    
+           
+   
+            
+<div><form class="mt-5"> <button type="submit" class="btn btn-lg  cusbtn1 rounded-lg  rounded-pill text-white"> Need more info? Reach out!</button></form> </div>
+</div><br/><br/><br/><br/>
+
+   <!--we serve you, you serve others-->
+   <div class="weserve" style="
+   background-image: url('assets/img/cookcollective-sep-background-1800x854.jpg');">
+    
+    <img class="mt-3 w-100" src="assets/img/we-serve-you.svg" alt="we serve"/>
+    
+   </div>
+    </section>
+
 
     <script src="assets/js/bootstrap.min.js"></script>
   </body>
