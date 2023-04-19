@@ -1,8 +1,14 @@
+body{
+overflow-x: hidden;
+}
 h1 {
     color:#ff490d;
     text-align: center;
     padding-top: 10rem;
  
+}
+.bg-default-color{
+    background-color: #ff490d;
 }
 .default-color{
     color:#ff490d;
@@ -52,6 +58,12 @@ h1 {
   .hover-effect:hover {
     opacity: 0.5;
     text-decoration: underline  #ff490d;
+    
+  }
+  .btnhover-effect:hover {
+    opacity: 0.5;
+    background-color: #ae401c;
+    
   }
   .active{
     text-decoration: underline solid  #ff490d;
@@ -63,8 +75,7 @@ h1 {
   }
 .weserve{
     background-repeat: no-repeat;
-    background-size:cover;
-    height: 380px;
-    text-align: center;
-    
+   
+
+   
 }
