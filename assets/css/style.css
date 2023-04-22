@@ -8,7 +8,7 @@ h1 {
  
 }
 .bg-default-color{
-    background-color: #ff490d;
+    background-color:#fffaf5;;
 }
 .default-color{
     color:#ff490d;
@@ -56,13 +56,17 @@ h1 {
    
   }
   .hover-effect:hover {
-    opacity: 0.5;
+    opacity: 0.8;
     text-decoration: underline  #ff490d;
     
   }
+  .btn1hover-effect:hover{
+    background-color: #fffaf5;
+    color:#ff490d;
+  }
   .btnhover-effect:hover {
-    opacity: 0.5;
-    background-color: #ae401c;
+    opacity: 0.9;
+    background-color: #ff490d;
     
   }
   .active{
@@ -75,7 +79,16 @@ h1 {
   }
 .weserve{
     background-repeat: no-repeat;
-   
+      
+}
 
-   
+.listhover-effect:hover {
+opacity: 0.8;
+ background-color: #ff490d;
+ color: white;
+  
+}
+.border-default{
+  border: 1px solid;
+  border-color: #ff490d;
 }
