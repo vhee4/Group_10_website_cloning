@@ -88,6 +88,7 @@ hr{
 
 
 
+
 .partners_section1,
 .partners_section2,
 .partners_section3,
@@ -122,6 +123,123 @@ hr{
 .partners_section4>img{
     max-width: 25%;
 }
+
+#BookingInformation{
+    padding: 9.375rem 3rem 0 3rem;
+    /* width: 100%; */
+}
+
+#BookingInformation>h2{
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.line3{
+    border: 1px solid rgb(230, 70, 52);
+    width: 25rem;
+    margin: 0 auto;
+}
+
+#BookingInformation>p{
+    padding: 40px 0;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.form_cont{
+    max-width: 50rem;
+    margin: 0 auto; 
+}
+
+.form_cont>input{
+    width: 100%;
+}
+
+.form_cont>.input_cont>input{
+    width: 100%;
+    border: 1px solid rgb(230, 70, 52);
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 12px;
+margin-bottom: 40px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.form_cont>.input_cont>input::placeholder{
+    color: rgb(230, 70, 52);
+}
+
+
+.form_cont>.input_cont2{
+display: flex;
+gap: 18px;
+margin-bottom: 40px;
+}
+
+.form_cont>.input_cont2>input {
+    width: 100%;
+    border: 1px solid rgb(230, 70, 52);
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 12px;
+    font-weight: 400;
+}
+
+.form_cont>.input_cont2>input::placeholder {
+    color: rgb(230, 70, 52);
+    font-size: 12px;
+}
+
+.form_cont>.input_cont2>textarea {
+    width: 100%;
+    border: 1px solid rgb(230, 70, 52);
+    height: 120px;
+    border-radius: 4px;
+    padding:10px 0 0 12px;
+}
+
+.form_cont>.input_cont2>textarea::placeholder {
+    color: rgb(230, 70, 52);
+    font-size: 12px;
+}
+
+.btn2 {
+    display: block;
+    border: 1px solid rgb(230, 70, 52);
+    color: rgb(254, 250, 245);
+    background-color: rgb(230, 70, 52);
+    border-radius: 2rem;
+    width: 100%;
+    padding: .9rem 2rem;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.checkbox{
+    color: rgb(230, 70, 52);
+    font-size: 12px;
+
+}
+
+.checkbox>span>span>a{
+    color: rgb(230, 70, 52);
+    font-size: 12px;
+    text-decoration: none;    
+}
+
+.checkbox>input[type="checkbox"] {
+    border: 1px solid #f00;
+}
+
+.checkbox>input[type="checkbox"]:checked {
+    background-color:#f00;
+}
+
+
+
 
 
 @media (min-width:900px) {
